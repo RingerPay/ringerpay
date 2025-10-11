@@ -1,44 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RingerPay</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0d47a1, #1976d2);
-      color: white;
-      text-align: center;
-      padding: 100px 20px;
-    }
-    h1 {
-      font-size: 48px;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 20px;
-      opacity: 0.9;
-    }
-    .btn {
-      background: white;
-      color: #0d47a1;
-      padding: 12px 25px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
-      display: inline-block;
-      margin-top: 30px;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #e3f2fd;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RingerPay - Your Digital Solutions Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-  <h1>Welcome to RingerPay</h1>
-  <p>Recharge, Bill Payments, and More — Coming Soon!</p>
-  <a href="#" class="btn">Get Started</a>
+    <header class="main-header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="RingerPay Logo" class="logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>RingerPay: All Your Digital Solutions in One Place</h1>
+                <p>Seamlessly manage your recharges, bill payments, PAN services, and more. Experience the future of financial convenience with RingerPay.</p>
+                <a href="#services" class="btn-primary">Explore Our Services</a>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2>Our Digital Solutions</h2>
+            <div class="services-grid">
+                <div class="service-box">
+                    <i class="fas fa-mobile-alt service-icon"></i>
+                    <h3>Mobile & DTH Recharge</h3>
+                    <p>Instant recharges for all operators.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-receipt service-icon"></i>
+                    <h3>Bill Payments</h3>
+                    <p>Electricity, water, gas, broadband & more.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-id-card service-icon"></i>
+                    <h3>PAN Services</h3>
+                    <p>Apply for new PAN or update existing.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-money-check-alt service-icon"></i>
+                    <h3>Aadhaar Pay</h3>
+                    <p>Cashless payments via Aadhaar.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-piggy-bank service-icon"></i>
+                    <h3>Mini Bank (AEPS)</h3>
+                    <p>Cash withdrawal, balance inquiry & more.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-shopping-bag service-icon"></i>
+                    <h3>Shopping Payments</h3>
+                    <p>Secure payments for your online purchases.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-ticket-alt service-icon"></i>
+                    <h3>Travel & Bookings</h3>
+                    <p>Flights, buses, hotels, and more.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-umbrella-beach service-icon"></i>
+                    <h3>Insurance Premiums</h3>
+                    <p>Pay your insurance premiums easily.</p>
+                </div>
+                <div class="service-box">
+                    <i class="fas fa-coins service-icon"></i>
+                    <h3>Loan Payments</h3>
+                    <p>Manage your loan EMIs effortlessly.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Ready to Simplify Your Finances?</h2>
+            <p>Join RingerPay today and experience unparalleled convenience.</p>
+            <a href="#" class="btn-secondary">Get Started Now</a>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2024 RingerPay. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank" aria-label="Follow us on Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank" aria-label="Follow us on Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank" aria-label="Follow us on Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank" aria-label="Connect with us on LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" target="_blank" aria-label="Chat with us on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            <p class="follow-text">Follow Us</p>
+        </div>
+    </footer>
 </body>
 </html>
