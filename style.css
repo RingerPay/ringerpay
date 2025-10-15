@@ -65,8 +65,9 @@ p {
 
 /* Hero Section - Fintech Image Background */
 .hero-section {
-    /* Ensure the image paths are correct: images/fintech-bg.jpg */
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/fintech-bg.jpg') no-repeat center center/cover;
+    /* Corrected (Goes up one folder, then into 'images') */
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/fintech-bg.jpg') no-repeat center center/cover;
+    
     color: #ffffff;
     text-align: center;
     padding: 120px 20px;
